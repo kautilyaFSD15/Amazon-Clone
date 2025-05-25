@@ -1,0 +1,346 @@
+
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image:url(../amazon_logo.png);
+    height: 50px;
+    width:100%;
+    background-size:cover;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/**box2*/
+.add-first{
+    color: white;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3*/
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: pink;
+    width: 620px;
+    height:40px;
+    border-radius:4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:1.5rem;
+    background-color:rgb(231, 16, 23);
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:black;
+}
+/*box4*/
+span{
+    font-size:0.7rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+/*box6*/
+.nav-cart i{
+    font-size:25px;
+}
+.nav-cart{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height:40px;
+    background-color:lightslategrey;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left:15px;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/** hero-section**/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height:380px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+   
+}
+
+.hero-msg a{
+    color:#007185;
+}
+/** shop section**/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box{
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+   
+}
+.box h1{
+    font-size: 1.62rem;
+    text-decoration:dotted;
+}
+.box1-image{
+    background-image: url(box1_image.jpg);
+   background-size: cover;
+   height: 250px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+   
+}
+
+.box2-image{
+    background-image: url(box2_image.jpg);
+     background-size: cover;
+   height: 250px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+
+.box3-image{
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+
+.box4-image{
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.box5-image{
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.box6-image{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.box7-image{
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.box8-image{
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom:40px;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box{
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+   
+}
+.box h1{
+    font-size: 1.62rem;
+    text-decoration:dotted;
+}
+.box9-image{
+    background-image: url(box9_image.jpg);
+   background-size: cover;
+   height: 250px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+   
+}
+.box10-image{
+   background-image: url(box10_image.jpg);
+   background-size: cover;
+   height: 250px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+   
+}
+
+.box11-image{
+    background-image: url(box11_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.box12-image{
+    background-image: url(box12_image.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232f3e;
+    color: #dcdcdc;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    width: 20%;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #dcdcdc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.footer-lang select {
+    background-color: #232f3e;
+    color: #dcdcdc;
+    border: 1px solid #444;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.footer-lang select:focus {
+    outline: none;
+}
